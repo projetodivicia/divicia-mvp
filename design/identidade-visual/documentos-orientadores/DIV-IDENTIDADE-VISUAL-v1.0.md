@@ -98,16 +98,16 @@ se torna possível.
 
 ---
 
-## 3. Cards Completos por Pilar (aplicação de exemplo)
+## 3. Fundos das Vozes por Pilar (aplicação de exemplo)
 
-Bordas decorativas completas, uma por Pilar, publicadas em
-`cards-completos/`:
+Fundos visuais das Vozes, aplicados por Pilar, publicados em
+`fundo-de-vozes/`:
 
-- `card-presenca.png`
-- `card-conexao.png`
-- `card-aprendizado.png`
-- `card-ressignificado.png`
-- `card-transformacao.png`
+- `voz-presenca.png`
+- `voz-conexao.png`
+- `voz-aprendizado.png`
+- `voz-ressignificado.png`
+- `voz-transformacao.png`
 
 ---
 
