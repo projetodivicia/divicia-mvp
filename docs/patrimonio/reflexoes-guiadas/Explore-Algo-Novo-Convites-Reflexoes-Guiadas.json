@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "documento_origem": "Textos de convite para o card 'Explore algo novo' (Home), fornecidos pela Fundadora — jul/2026. Ainda não publicado na Biblioteca.",
+    "uso": "Card 'Explore algo novo' na Home, escopo Despertar MVP — só Reflexões Guiadas divulgadas nesta fase (Ritual e Explorações não ativos, DIV-PROT-MODULOS-001). Rotação: 1 por vez, sem repetir a última mostrada (mesma regra de D.1.1, DIV-MA-013).",
+    "total_reflexoes": 15,
+    "formato_exibicao": "Título em maiúsculas + 'Conheça a Reflexão Guiada [título]' + texto de convite (3 linhas)",
+    "verificacao": "15 títulos conferidos contra DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0 — 9 Territórios + 6 Instantâneos, correspondência exata confirmada jul/2026.",
+    "distincao_importante": "Este texto de convite (pré-experiência, card 'Explore algo novo') é diferente do elemento 'Card' da devolutiva (pós-experiência, um dos 4 elementos fixos: Essência, Frase Síntese, Microgesto, Card Compartilhável). Não substituem um ao outro.",
+    "nota_renomeacao": "SILÊNCIO → SILÊNCIO INTERNO; ESSÊNCIA → ESSÊNCIA VIVA. Renomeação decidida para resolver colisão com nomes de Voz (Silêncio = Voz nº3, Essência = Voz nº24). Texto de convite mantido integralmente, só o título mudou."
+  },
+  "convites": [
+    {
+      "id": "RG01",
+      "titulo": "SILÊNCIO INTERNO",
+      "cabecalho": "Conheça a Reflexão Guiada SILÊNCIO INTERNO",
+      "texto_convite": "Nesta reflexão, o convite não é encontrar respostas.\nÉ apenas observar como você tem se relacionado com os momentos em que o ruído diminui.\nTalvez exista algo esperando para ser escutado."
+    },
+    {
+      "id": "RG02",
+      "titulo": "CUIDADO",
+      "cabecalho": "Conheça a Reflexão Guiada CUIDADO",
+      "texto_convite": "Nem sempre percebemos onde nosso cuidado tem sido direcionado.\nÀs vezes ele alcança tudo ao nosso redor, menos nós mesmas.\nNesta reflexão, o convite é reconhecer o que, hoje, está pedindo mais atenção na sua vida."
+    },
+    {
+      "id": "RG03",
+      "titulo": "MUDANÇAS",
+      "cabecalho": "Conheça a Reflexão Guiada MUDANÇAS",
+      "texto_convite": "Toda mudança atravessa um tempo próprio.\nAlgumas chegam de repente. Outras começam silenciosamente, antes mesmo de serem percebidas.\nNesta reflexão, o convite é reconhecer como você tem vivido os ciclos de mudança da sua vida."
+    },
+    {
+      "id": "RG04",
+      "titulo": "O QUE ME MOVE",
+      "cabecalho": "Conheça a Reflexão Guiada O QUE ME MOVE",
+      "texto_convite": "Por trás de cada escolha existe algo que nos impulsiona.\nNem sempre percebemos o que realmente está conduzindo nossos passos.\nNesta reflexão, o convite é reconhecer o que tem inspirado suas escolhas neste momento."
+    },
+    {
+      "id": "RG05",
+      "titulo": "MOVIMENTO INTERNO",
+      "cabecalho": "Conheça a Reflexão Guiada MOVIMENTO INTERNO",
+      "texto_convite": "Nem tudo o que acontece dentro de nós encontra palavras imediatamente.\nAlguns movimentos apenas começam a pedir espaço.\nNesta reflexão, o convite é perceber o que está buscando ganhar voz dentro de você."
+    },
+    {
+      "id": "RG06",
+      "titulo": "MINHA HISTÓRIA",
+      "cabecalho": "Conheça a Reflexão Guiada MINHA HISTÓRIA",
+      "texto_convite": "A vida é feita de capítulos.\nAlguns encerram ciclos. Outros anunciam começos que ainda não conseguimos enxergar por completo.\nNesta reflexão, o convite é reconhecer o capítulo que você sente estar vivendo hoje."
+    },
+    {
+      "id": "RG07",
+      "titulo": "RELAÇÕES",
+      "cabecalho": "Conheça a Reflexão Guiada RELAÇÕES",
+      "texto_convite": "Cada relação revela algo sobre quem somos.\nAlgumas fortalecem. Outras desafiam. Todas podem nos ensinar.\nNesta reflexão, o convite é observar como você tem vivido os vínculos que fazem parte da sua vida."
+    },
+    {
+      "id": "RG08",
+      "titulo": "ESSÊNCIA VIVA",
+      "cabecalho": "Conheça a Reflexão Guiada ESSÊNCIA VIVA",
+      "texto_convite": "Por trás dos papéis, das expectativas e das circunstâncias, existe algo em você que permanece.\nNesta reflexão, o convite é aproximar-se do que faz sentido para quem você é."
+    },
+    {
+      "id": "RG09",
+      "titulo": "SUSTENTAÇÃO",
+      "cabecalho": "Conheça a Reflexão Guiada SUSTENTAÇÃO",
+      "texto_convite": "A forma como sustentamos nossos dias influencia silenciosamente tudo o que vivemos.\nNesta reflexão, o convite é reconhecer o que hoje fortalece — ou fragiliza — a base da sua vida."
+    },
+    {
+      "id": "RG10",
+      "titulo": "ENERGIA DA SEMANA",
+      "cabecalho": "Conheça a Reflexão Guiada ENERGIA DA SEMANA",
+      "texto_convite": "Cada semana traz um ritmo diferente.\nPercebê-lo pode ajudar você a atravessar esse momento com mais consciência.\nNesta reflexão, o convite é reconhecer qual energia tem ocupado mais espaço em você."
+    },
+    {
+      "id": "RG11",
+      "titulo": "FOCO DA SEMANA",
+      "cabecalho": "Conheça a Reflexão Guiada FOCO DA SEMANA",
+      "texto_convite": "Nossa atenção revela muito sobre o momento que estamos vivendo.\nNem sempre ela está onde gostaríamos.\nNesta reflexão, o convite é perceber para onde sua atenção tem sido naturalmente direcionada."
+    },
+    {
+      "id": "RG12",
+      "titulo": "PESO E LEVEZA",
+      "cabecalho": "Conheça a Reflexão Guiada PESO E LEVEZA",
+      "texto_convite": "Há dias em que tudo parece mais leve.\nEm outros, algo pesa, mesmo sem conseguirmos explicar.\nNesta reflexão, o convite é reconhecer o que predomina em você neste momento."
+    },
+    {
+      "id": "RG13",
+      "titulo": "DECISÃO EM ABERTO",
+      "cabecalho": "Conheça a Reflexão Guiada DECISÃO EM ABERTO",
+      "texto_convite": "Nem toda decisão precisa ser tomada imediatamente.\nÀs vezes, compreender como nos relacionamos com uma escolha já transforma a forma de atravessá-la.\nNesta reflexão, o convite é observar onde você está diante de uma decisão ainda em aberto."
+    },
+    {
+      "id": "RG14",
+      "titulo": "ENTRE O SIM E O NÃO",
+      "cabecalho": "Conheça a Reflexão Guiada ENTRE O SIM E O NÃO",
+      "texto_convite": "Ao longo da vida, nossos \"sins\" e \"nãos\" moldam caminhos, relações e possibilidades.\nNem sempre percebemos como essas escolhas acontecem.\nNesta reflexão, o convite é reconhecer como você tem vivido suas escolhas mais recentes."
+    },
+    {
+      "id": "RG15",
+      "titulo": "O PILAR DO MEU DIA",
+      "cabecalho": "Conheça a Reflexão Guiada O PILAR DO MEU DIA",
+      "texto_convite": "Mesmo nos dias mais comuns, um movimento costuma se destacar.\nÀs vezes ele passa despercebido até o momento em que olhamos para trás.\nNesta reflexão, o convite é reconhecer qual Pilar esteve mais presente no seu dia."
+    }
+  ]
+}

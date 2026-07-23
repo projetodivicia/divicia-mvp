@@ -1,0 +1,87 @@
+[
+  {
+    "id": "presenca",
+    "nome": "Presença",
+    "subtitulo": "Habitar o agora",
+    "simbolo": "circulo",
+    "descricao": "Convida a estar inteira na experiência que acontece neste momento. É o território da escuta, da observação e do encontro com a vida antes das interpretações.",
+    "vozes": [
+      "Coragem",
+      "Acolhimento",
+      "Silêncio",
+      "Plenitude",
+      "Escolhas",
+      "Pausa",
+      "Escuta",
+      "Intuição"
+    ]
+  },
+  {
+    "id": "conexao",
+    "nome": "Conexão",
+    "subtitulo": "Cultivar vínculos verdadeiros",
+    "simbolo": "circulos_entrelacados",
+    "descricao": "Celebra os laços que sustentam a vida e dão sentido à caminhada. É o território do pertencimento, da empatia e dos encontros que nos transformam.",
+    "vozes": [
+      "Confiança",
+      "Empatia",
+      "Inteireza",
+      "Generosidade",
+      "Diálogo",
+      "Vitalidade",
+      "Autenticidade",
+      "Colaboração"
+    ]
+  },
+  {
+    "id": "aprendizado",
+    "nome": "Aprendizado",
+    "subtitulo": "Transformar experiência em sabedoria",
+    "simbolo": "triangulo",
+    "descricao": "Nos lembra que crescer é permanecer aberto ao que a vida revela. É o território da descoberta, da clareza e da compreensão que nasce da experiência vivida.",
+    "vozes": [
+      "Exploração",
+      "Humildade",
+      "Consciência",
+      "Discernimento",
+      "Vulnerabilidade",
+      "Resiliência",
+      "Paciência",
+      "Essência"
+    ]
+  },
+  {
+    "id": "ressignificado",
+    "nome": "Ressignificado",
+    "subtitulo": "Encontrar novos sentidos",
+    "simbolo": "meia_lua",
+    "descricao": "Convida a olhar novamente para aquilo que foi vivido. É o território onde experiências se transformam em compreensão e finais podem abrir espaço para novos começos.",
+    "vozes": [
+      "Soltar",
+      "Consentir",
+      "Recomeço",
+      "Perdão",
+      "Reorganização",
+      "Ressurgir",
+      "Integração",
+      "Refino"
+    ]
+  },
+  {
+    "id": "transformacao",
+    "nome": "Transformação",
+    "subtitulo": "Dar forma ao que deseja nascer",
+    "simbolo": "espiral",
+    "descricao": "Convida a transformar consciência em movimento. É o território da mudança, da expressão e da construção consciente do que está por vir.",
+    "vozes": [
+      "Determinação",
+      "Despertar",
+      "Reequilíbrio",
+      "Emergência",
+      "Ascensão",
+      "Desbloqueio",
+      "Metamorfose",
+      "Germinar"
+    ]
+  }
+]

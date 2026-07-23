@@ -1,0 +1,43 @@
+{
+  "id": "mapa-do-despertar",
+  "titulo": "Mapa do Despertar",
+  "introducao": "Cada voz é um convite a atravessar diferentes camadas do ser. Chamamos esse percurso de Mapa do Despertar, uma bússola que orienta o olhar interior e exterior em direção ao autoconhecimento e a uma vida mais consciente.",
+  "chaves": [
+    {
+      "id": "essencia-viva",
+      "titulo": "Essência Viva",
+      "subtitulo": "O sopro poético que traduz a força da voz em sua pureza."
+    },
+    {
+      "id": "chave-do-sentido",
+      "titulo": "Chave do Sentido",
+      "subtitulo": "O fio condutor, a direção mais profunda que a voz nos aponta."
+    },
+    {
+      "id": "movimento-da-alma",
+      "titulo": "Movimento da Alma",
+      "subtitulo": "O chamado interno, a transformação silenciosa que nasce dentro."
+    },
+    {
+      "id": "gesto-no-caminho",
+      "titulo": "Gesto no Caminho",
+      "subtitulo": "A expressão no mundo, quando o interno se converte em ação ou relação."
+    },
+    {
+      "id": "armadilha-do-ego",
+      "titulo": "Armadilha do Ego",
+      "subtitulo": "A sombra que surge quando não integramos o aprendizado."
+    },
+    {
+      "id": "chave-da-consciencia",
+      "titulo": "Chave da Consciência",
+      "subtitulo": "A clareza que sustenta o processo de autoconhecimento."
+    },
+    {
+      "id": "eco-do-silencio",
+      "titulo": "Eco do Silêncio",
+      "subtitulo": "O fio poético-espiritual que nos conecta à sabedoria maior."
+    }
+  ],
+  "encerramento": "Assim, cada voz se revela como espelho e guia: um convite a despertar a consciência e abrir espaço para a expressão da alma."
+}

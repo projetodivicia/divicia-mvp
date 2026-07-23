@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "documento_origem": "Sopro_do_Dia.docx (Andrea Chiarella, v1.0, 2025) — atualizado jul/2026: 13 frases excluídas pela Fundadora (R05, R10, R17, R23, R24, R25, R27, R37, R45, M22, M29, M31, M34). Ainda não publicado na Biblioteca.",
+    "versao": "1.0",
+    "total_frases": 94,
+    "por_categoria": {
+      "poetica": 25,
+      "reflexiva": 36,
+      "motivadora": 33
+    },
+    "regra_rotatividade": "Ver 'regra_rotatividade_mvp_despertar' (vigente nesta fase) e 'regra_rotatividade_arquitetura_madura' (vigente quando houver Memória). Este campo é mantido apenas por compatibilidade, não deve mais ser lido isoladamente.",
+    "nota_patrimonio": "Durante a curadoria, foram identificadas frases de alto impacto nos campos Chave da Consciência e Eco do Silêncio das 40 Vozes, incorporadas ao banco como poéticas e reflexivas.",
+    "regra_rotatividade_arquitetura_madura": "Rotatividade aleatória entre as três categorias, evitando repetição dentro de um período de 90 dias. Esta é a regra de arquitetura madura, aplicável quando existir mecanismo de memória (Lumi/Memória Experiencial, Descoberta/Integração).",
+    "regra_rotatividade_mvp_despertar": "Trilha Despertar (MVP, jul/2026): rotatividade puramente aleatória entre as três categorias, SEM checagem de repetição dentro de 90 dias. Decisão da Fundadora: sem Lumi, sem Memória, sem backend persistente nesta fase (ver DIV-PROT-MODULOS-001), não há onde guardar o histórico por mulher necessário para aplicar a regra de 90 dias. Repetição é aceita como consequência conhecida, não como falha."
+  },
+  "sopros": [
+    {
+      "id": "P01",
+      "categoria": "poetica",
+      "texto": "No abrigo quieto do coração, tudo encontra lugar.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P02",
+      "categoria": "poetica",
+      "texto": "No silêncio profundo, o ser reconhece sua própria imensidão.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P03",
+      "categoria": "poetica",
+      "texto": "Quando a mente finalmente repousa, o essencial encontra espaço para respirar.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P04",
+      "categoria": "poetica",
+      "texto": "O silêncio atento transforma presença em encontro verdadeiro.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P05",
+      "categoria": "poetica",
+      "texto": "Quando o ruído interno se aquieta, a alma volta a sussurrar.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P06",
+      "categoria": "poetica",
+      "texto": "Quando o medo se aquieta, a confiança encontra espaço para respirar.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P07",
+      "categoria": "poetica",
+      "texto": "Quando o julgamento se aquieta, o sentir do outro finalmente encontra espaço.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P08",
+      "categoria": "poetica",
+      "texto": "Muitas vezes, o chamado não chega com barulho. Chega em silêncio. Mas insiste.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P09",
+      "categoria": "poetica",
+      "texto": "A vida se revela não em grandes acontecimentos. Mas nos detalhes.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P10",
+      "categoria": "poetica",
+      "texto": "Reencontrar-se raramente é um acontecimento. É um processo.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P11",
+      "categoria": "poetica",
+      "texto": "A presença é a respiração que te chama de volta ao centro.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P12",
+      "categoria": "poetica",
+      "texto": "A presença é o intervalo sagrado onde a vida acontece.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P13",
+      "categoria": "poetica",
+      "texto": "No instante presente, você encontra o fio que te costura ao mundo.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P14",
+      "categoria": "poetica",
+      "texto": "O agora é a parte mais honesta da sua história.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P15",
+      "categoria": "poetica",
+      "texto": "Estar aqui e agora é o primeiro gesto de cuidado com você mesma.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P16",
+      "categoria": "poetica",
+      "texto": "Conexão é encontro: consigo, com o outro, com o sentido.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P17",
+      "categoria": "poetica",
+      "texto": "A conexão costura suas partes internas com ternura.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P18",
+      "categoria": "poetica",
+      "texto": "Há fios invisíveis sustentando seus afetos.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P19",
+      "categoria": "poetica",
+      "texto": "O aprendizado é sutil: chega em silêncio e transforma em profundidade.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P20",
+      "categoria": "poetica",
+      "texto": "A transformação é discreta, mas irreversível.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P21",
+      "categoria": "poetica",
+      "texto": "Transformar é plantar-se de novo, com mais raiz.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P22",
+      "categoria": "poetica",
+      "texto": "A transformação nasce do encontro entre consciência e entrega.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P23",
+      "categoria": "poetica",
+      "texto": "Você é um processo vivo de reinvenção.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P24",
+      "categoria": "poetica",
+      "texto": "O novo sentido costura feridas com delicadeza.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "P25",
+      "categoria": "poetica",
+      "texto": "A ressignificação reorganiza sentidos internos.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R01",
+      "categoria": "reflexiva",
+      "texto": "A vida está acontecendo. A pergunta é: você está dentro dela ou só respondendo?",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R02",
+      "categoria": "reflexiva",
+      "texto": "Aquilo que você não observa continua conduzindo parte da sua vida.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R03",
+      "categoria": "reflexiva",
+      "texto": "Há uma diferença entre saber quem você é e viver de acordo com isso.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R04",
+      "categoria": "reflexiva",
+      "texto": "A vida muda quando deixamos de nos abandonar para caber.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R06",
+      "categoria": "reflexiva",
+      "texto": "Sem consciência, não há escolha real. Apenas continuidade.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R07",
+      "categoria": "reflexiva",
+      "texto": "O que não é escolhido conscientemente tende a ser escolhido pelo hábito.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R08",
+      "categoria": "reflexiva",
+      "texto": "Algumas decisões transformam a vida. Outras transformam quem decide.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R09",
+      "categoria": "reflexiva",
+      "texto": "Talvez a pergunta mais decisiva não seja como cheguei até aqui. Mas: eu desejo permanecer?",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R11",
+      "categoria": "reflexiva",
+      "texto": "O que conduz a forma como você vive: você ou o que está à sua volta?",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R12",
+      "categoria": "reflexiva",
+      "texto": "Você não é o papel que assumiu. Você é quem observa esse papel.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R13",
+      "categoria": "reflexiva",
+      "texto": "Nos limitamos. Não pela realidade. Mas pela identidade que construímos.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R14",
+      "categoria": "reflexiva",
+      "texto": "Não carregamos apenas o que vivemos. Carregamos também o que absorvemos.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R15",
+      "categoria": "reflexiva",
+      "texto": "Alguns pesos desaparecem quando entendemos que nunca foram nossos.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R16",
+      "categoria": "reflexiva",
+      "texto": "O passado não muda. O significado que damos a ele pode mudar.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R18",
+      "categoria": "reflexiva",
+      "texto": "Mudar não é sobre fazer diferente. É sobre ser coerente com o que você já sabe.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R19",
+      "categoria": "reflexiva",
+      "texto": "Crescer nem sempre significa adicionar algo. Às vezes significa remover.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R20",
+      "categoria": "reflexiva",
+      "texto": "Aceitar pode endurecer. Acolher cuida.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R21",
+      "categoria": "reflexiva",
+      "texto": "Escuta não é concordar. É compreender antes de responder.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R22",
+      "categoria": "reflexiva",
+      "texto": "Intuição não é adivinhar o futuro. É perceber o que já está tentando se mostrar.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R26",
+      "categoria": "reflexiva",
+      "texto": "Empatia não é absorver a dor do outro. É permanecer disponível sem se perder de si.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R28",
+      "categoria": "reflexiva",
+      "texto": "Humildade não é pensar menos de si. É reconhecer que o aprendizado nunca termina.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R29",
+      "categoria": "reflexiva",
+      "texto": "Consciência não é controlar tudo. É perceber com clareza suficiente para interromper o automático.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R30",
+      "categoria": "reflexiva",
+      "texto": "Resiliência não é fingir que nada aconteceu. É permitir que a experiência transforme sem destruir sua essência.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R31",
+      "categoria": "reflexiva",
+      "texto": "Paciência não é esperar passivamente. É respeitar o tempo necessário das coisas.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R32",
+      "categoria": "reflexiva",
+      "texto": "Essência não é algo que precisa ser criado. É algo que precisa ser lembrado.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R33",
+      "categoria": "reflexiva",
+      "texto": "Colaboração não é depender. É reconhecer que algumas jornadas se fortalecem no encontro.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R34",
+      "categoria": "reflexiva",
+      "texto": "Nem sempre sofremos pelas escolhas erradas. Às vezes sofremos pelas escolhas não feitas.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R35",
+      "categoria": "reflexiva",
+      "texto": "Toda escolha pede perda. E evitar perder também tem um custo.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R36",
+      "categoria": "reflexiva",
+      "texto": "Um movimento deixa de nos dominar quando passamos a reconhecê-lo enquanto acontece.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R38",
+      "categoria": "reflexiva",
+      "texto": "No acolhimento, o peso encontra lugar e começa a se desfazer.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R39",
+      "categoria": "reflexiva",
+      "texto": "Plenitude não é ausência de vazio, mas presença diante do que já existe.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R40",
+      "categoria": "reflexiva",
+      "texto": "Cada escolha revela aquilo que você decide alimentar dentro de si.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R41",
+      "categoria": "reflexiva",
+      "texto": "A intuição não substitui a razão. Ela amplia aquilo que a consciência consegue perceber.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R42",
+      "categoria": "reflexiva",
+      "texto": "Confiar não é ausência de lucidez. É permitir conexão sem precisar controlar tudo.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R43",
+      "categoria": "reflexiva",
+      "texto": "Empatia é acolher o outro sem deixar de ser si mesma.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "R44",
+      "categoria": "reflexiva",
+      "texto": "Escutar é permitir que nós e o outro existamos sem precisar ser corrigidos.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M01",
+      "categoria": "motivadora",
+      "texto": "Respire: o agora é suficiente.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M02",
+      "categoria": "motivadora",
+      "texto": "Volte para si. Aqui é seguro.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M03",
+      "categoria": "motivadora",
+      "texto": "Sua presença é sua força.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M04",
+      "categoria": "motivadora",
+      "texto": "Uma respiração pode mudar seu dia.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M05",
+      "categoria": "motivadora",
+      "texto": "Tudo começa com uma pausa.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M06",
+      "categoria": "motivadora",
+      "texto": "O presente te devolve para você.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M07",
+      "categoria": "motivadora",
+      "texto": "Permita-se pousar no momento.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M08",
+      "categoria": "motivadora",
+      "texto": "Este instante te pertence.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M09",
+      "categoria": "motivadora",
+      "texto": "Você está exatamente onde precisa estar.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M10",
+      "categoria": "motivadora",
+      "texto": "O que você sente também é caminho.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M11",
+      "categoria": "motivadora",
+      "texto": "Há sabedoria nas suas emoções.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M12",
+      "categoria": "motivadora",
+      "texto": "Pertencer começa dentro.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M13",
+      "categoria": "motivadora",
+      "texto": "O coração sabe o caminho.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M14",
+      "categoria": "motivadora",
+      "texto": "Abrir-se é um ato de força.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M15",
+      "categoria": "motivadora",
+      "texto": "Há força na vulnerabilidade.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M16",
+      "categoria": "motivadora",
+      "texto": "A verdade emocional liberta.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M17",
+      "categoria": "motivadora",
+      "texto": "Há algo novo chegando para você.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M18",
+      "categoria": "motivadora",
+      "texto": "Aprender é crescer por dentro.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M19",
+      "categoria": "motivadora",
+      "texto": "Uma pergunta pode transformar tudo.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M20",
+      "categoria": "motivadora",
+      "texto": "Confie no que está se revelando.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M21",
+      "categoria": "motivadora",
+      "texto": "Permita-se questionar.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M23",
+      "categoria": "motivadora",
+      "texto": "Há luz entrando pela fresta.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M24",
+      "categoria": "motivadora",
+      "texto": "Seu olhar pode libertar sua história.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M25",
+      "categoria": "motivadora",
+      "texto": "O passado não dita seu agora.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M26",
+      "categoria": "motivadora",
+      "texto": "O sentido é você quem cria.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M27",
+      "categoria": "motivadora",
+      "texto": "Ressignificar é um ato de amor próprio.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M28",
+      "categoria": "motivadora",
+      "texto": "O que parecia encerrado pode renascer.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M30",
+      "categoria": "motivadora",
+      "texto": "Permita-se mudar.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M32",
+      "categoria": "motivadora",
+      "texto": "O que você cultiva, floresce.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M33",
+      "categoria": "motivadora",
+      "texto": "Transforme-se com gentileza.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M35",
+      "categoria": "motivadora",
+      "texto": "Você é obra viva em constante renascimento.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M36",
+      "categoria": "motivadora",
+      "texto": "Deixe o novo entrar.",
+      "pilar_relacionado": null
+    },
+    {
+      "id": "M37",
+      "categoria": "motivadora",
+      "texto": "O novo já está germinando em você.",
+      "pilar_relacionado": null
+    }
+  ]
+}
