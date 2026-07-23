@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "aviso": "Cópia de conveniência derivada da Parte 3 do Patrimônio oficial (DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md). Mantida como referência auxiliar para uso direto por quem materializa, sem precisar reler o documento oficial inteiro. NÃO é fonte de verdade — se a Matriz oficial mudar, esta cópia precisa ser sincronizada manualmente. Em caso de divergência, o documento oficial prevalece.",
+    "regra": "Associação estratégica: cada Voz pode ser explorada em três temas de reflexão sugeridos. A matriz orienta afinidade, mas a usuária sempre escolhe livremente. Aplica-se apenas aos Territórios; a família Instantâneos não possui vínculo com Voz específica.",
+    "instantaneos_sem_vinculo": [
+      "Energia da Semana",
+      "Foco da Semana",
+      "Peso e Leveza",
+      "Decisão em Aberto",
+      "Entre o Sim e o Não",
+      "O Pilar do Meu Dia"
+    ],
+    "total_vozes": 40,
+    "nota_renomeacao": "Silêncio → Silêncio Interno; Essência → Essência Viva, nesta tabela de referência, para refletir a renomeação decidida (resolver colisão com nomes de Voz). A tabela oficial (documento fonte) precisa da mesma atualização."
+  },
+  "matriz": [
+    {
+      "pilar": "PRESENÇA",
+      "numero": 1,
+      "voz": "Coragem",
+      "reflexoes_sugeridas": [
+        "Movimento Interno",
+        "Minha História",
+        "O que me Move"
+      ]
+    },
+    {
+      "pilar": "PRESENÇA",
+      "numero": 2,
+      "voz": "Acolhimento",
+      "reflexoes_sugeridas": [
+        "Cuidado",
+        "Silêncio Interno",
+        "Sustentação"
+      ]
+    },
+    {
+      "pilar": "PRESENÇA",
+      "numero": 3,
+      "voz": "Silêncio",
+      "reflexoes_sugeridas": [
+        "Essência Viva",
+        "Cuidado",
+        "Minha História"
+      ]
+    },
+    {
+      "pilar": "PRESENÇA",
+      "numero": 4,
+      "voz": "Plenitude",
+      "reflexoes_sugeridas": [
+        "O que me Move",
+        "Minha História",
+        "Relações"
+      ]
+    },
+    {
+      "pilar": "PRESENÇA",
+      "numero": 5,
+      "voz": "Escolhas",
+      "reflexoes_sugeridas": [
+        "Silêncio Interno",
+        "Cuidado",
+        "Movimento Interno"
+      ]
+    },
+    {
+      "pilar": "PRESENÇA",
+      "numero": 6,
+      "voz": "Pausa",
+      "reflexoes_sugeridas": [
+        "Silêncio Interno",
+        "Relações",
+        "Essência Viva"
+      ]
+    },
+    {
+      "pilar": "PRESENÇA",
+      "numero": 7,
+      "voz": "Escuta",
+      "reflexoes_sugeridas": [
+        "Silêncio Interno",
+        "Movimento Interno",
+        "Essência Viva"
+      ]
+    },
+    {
+      "pilar": "PRESENÇA",
+      "numero": 8,
+      "voz": "Intuição",
+      "reflexoes_sugeridas": [
+        "O que me Move",
+        "Movimento Interno",
+        "Essência Viva"
+      ]
+    },
+    {
+      "pilar": "CONEXÃO",
+      "numero": 9,
+      "voz": "Confiança",
+      "reflexoes_sugeridas": [
+        "Relações",
+        "Cuidado",
+        "Movimento Interno"
+      ]
+    },
+    {
+      "pilar": "CONEXÃO",
+      "numero": 10,
+      "voz": "Empatia",
+      "reflexoes_sugeridas": [
+        "Relações",
+        "Essência Viva",
+        "Sustentação"
+      ]
+    },
+    {
+      "pilar": "CONEXÃO",
+      "numero": 11,
+      "voz": "Inteireza",
+      "reflexoes_sugeridas": [
+        "Movimento Interno",
+        "Essência Viva",
+        "Relações"
+      ]
+    },
+    {
+      "pilar": "CONEXÃO",
+      "numero": 12,
+      "voz": "Generosidade",
+      "reflexoes_sugeridas": [
+        "Relações",
+        "Cuidado",
+        "O que me Move"
+      ]
+    },
+    {
+      "pilar": "CONEXÃO",
+      "numero": 13,
+      "voz": "Diálogo",
+      "reflexoes_sugeridas": [
+        "Relações",
+        "Movimento Interno",
+        "Minha História"
+      ]
+    },
+    {
+      "pilar": "CONEXÃO",
+      "numero": 14,
+      "voz": "Vitalidade",
+      "reflexoes_sugeridas": [
+        "Cuidado",
+        "Movimento Interno",
+        "Essência Viva"
+      ]
+    },
+    {
+      "pilar": "CONEXÃO",
+      "numero": 15,
+      "voz": "Autenticidade",
+      "reflexoes_sugeridas": [
+        "Minha História",
+        "O que me Move",
+        "Relações"
+      ]
+    },
+    {
+      "pilar": "CONEXÃO",
+      "numero": 16,
+      "voz": "Colaboração",
+      "reflexoes_sugeridas": [
+        "Relações",
+        "Minha História",
+        "Sustentação"
+      ]
+    },
+    {
+      "pilar": "APRENDIZADO",
+      "numero": 17,
+      "voz": "Exploração",
+      "reflexoes_sugeridas": [
+        "O que me Move",
+        "Minha História",
+        "Essência Viva"
+      ]
+    },
+    {
+      "pilar": "APRENDIZADO",
+      "numero": 18,
+      "voz": "Humildade",
+      "reflexoes_sugeridas": [
+        "Minha História",
+        "Cuidado",
+        "Essência Viva"
+      ]
+    },
+    {
+      "pilar": "APRENDIZADO",
+      "numero": 19,
+      "voz": "Consciência",
+      "reflexoes_sugeridas": [
+        "Minha História",
+        "Essência Viva",
+        "Silêncio Interno"
+      ]
+    },
+    {
+      "pilar": "APRENDIZADO",
+      "numero": 20,
+      "voz": "Discernimento",
+      "reflexoes_sugeridas": [
+        "O que me Move",
+        "Minha História",
+        "Silêncio Interno"
+      ]
+    },
+    {
+      "pilar": "APRENDIZADO",
+      "numero": 21,
+      "voz": "Vulnerabilidade",
+      "reflexoes_sugeridas": [
+        "Movimento Interno",
+        "Relações",
+        "Minha História"
+      ]
+    },
+    {
+      "pilar": "APRENDIZADO",
+      "numero": 22,
+      "voz": "Resiliência",
+      "reflexoes_sugeridas": [
+        "Movimento Interno",
+        "Minha História",
+        "Essência Viva"
+      ]
+    },
+    {
+      "pilar": "APRENDIZADO",
+      "numero": 23,
+      "voz": "Paciência",
+      "reflexoes_sugeridas": [
+        "Movimento Interno",
+        "Cuidado",
+        "Silêncio Interno"
+      ]
+    },
+    {
+      "pilar": "APRENDIZADO",
+      "numero": 24,
+      "voz": "Essência",
+      "reflexoes_sugeridas": [
+        "Essência Viva",
+        "Silêncio Interno",
+        "Minha História"
+      ]
+    },
+    {
+      "pilar": "RESSIGNIFICADO",
+      "numero": 25,
+      "voz": "Soltar",
+      "reflexoes_sugeridas": [
+        "Minha História",
+        "Mudanças",
+        "Silêncio Interno"
+      ]
+    },
+    {
+      "pilar": "RESSIGNIFICADO",
+      "numero": 26,
+      "voz": "Consentir",
+      "reflexoes_sugeridas": [
+        "Cuidado",
+        "Relações",
+        "Silêncio Interno"
+      ]
+    },
+    {
+      "pilar": "RESSIGNIFICADO",
+      "numero": 27,
+      "voz": "Recomeço",
+      "reflexoes_sugeridas": [
+        "Mudanças",
+        "O que me Move",
+        "Essência Viva"
+      ]
+    },
+    {
+      "pilar": "RESSIGNIFICADO",
+      "numero": 28,
+      "voz": "Perdão",
+      "reflexoes_sugeridas": [
+        "Relações",
+        "Minha História",
+        "Essência Viva"
+      ]
+    },
+    {
+      "pilar": "RESSIGNIFICADO",
+      "numero": 29,
+      "voz": "Reorganização",
+      "reflexoes_sugeridas": [
+        "Cuidado",
+        "Mudanças",
+        "Minha História"
+      ]
+    },
+    {
+      "pilar": "RESSIGNIFICADO",
+      "numero": 30,
+      "voz": "Ressurgir",
+      "reflexoes_sugeridas": [
+        "Movimento Interno",
+        "Minha História",
+        "Essência Viva"
+      ]
+    },
+    {
+      "pilar": "RESSIGNIFICADO",
+      "numero": 31,
+      "voz": "Integração",
+      "reflexoes_sugeridas": [
+        "Essência Viva",
+        "Relações",
+        "Minha História"
+      ]
+    },
+    {
+      "pilar": "RESSIGNIFICADO",
+      "numero": 32,
+      "voz": "Refino",
+      "reflexoes_sugeridas": [
+        "Essência Viva",
+        "Cuidado",
+        "O que me Move"
+      ]
+    },
+    {
+      "pilar": "TRANSFORMAÇÃO",
+      "numero": 33,
+      "voz": "Determinação",
+      "reflexoes_sugeridas": [
+        "O que me Move",
+        "Essência Viva",
+        "Movimento Interno"
+      ]
+    },
+    {
+      "pilar": "TRANSFORMAÇÃO",
+      "numero": 34,
+      "voz": "Despertar",
+      "reflexoes_sugeridas": [
+        "Essência Viva",
+        "Silêncio Interno",
+        "O que me Move"
+      ]
+    },
+    {
+      "pilar": "TRANSFORMAÇÃO",
+      "numero": 35,
+      "voz": "Reequilíbrio",
+      "reflexoes_sugeridas": [
+        "Cuidado",
+        "Essência Viva",
+        "Sustentação"
+      ]
+    },
+    {
+      "pilar": "TRANSFORMAÇÃO",
+      "numero": 36,
+      "voz": "Emergência",
+      "reflexoes_sugeridas": [
+        "Mudanças",
+        "Movimento Interno",
+        "Essência Viva"
+      ]
+    },
+    {
+      "pilar": "TRANSFORMAÇÃO",
+      "numero": 37,
+      "voz": "Ascensão",
+      "reflexoes_sugeridas": [
+        "Movimento Interno",
+        "Silêncio Interno",
+        "Minha História"
+      ]
+    },
+    {
+      "pilar": "TRANSFORMAÇÃO",
+      "numero": 38,
+      "voz": "Desbloqueio",
+      "reflexoes_sugeridas": [
+        "O que me Move",
+        "Movimento Interno",
+        "Mudanças"
+      ]
+    },
+    {
+      "pilar": "TRANSFORMAÇÃO",
+      "numero": 39,
+      "voz": "Metamorfose",
+      "reflexoes_sugeridas": [
+        "Mudanças",
+        "Essência Viva",
+        "Minha História"
+      ]
+    },
+    {
+      "pilar": "TRANSFORMAÇÃO",
+      "numero": 40,
+      "voz": "Germinar",
+      "reflexoes_sugeridas": [
+        "O que me Move",
+        "Essência Viva",
+        "Cuidado"
+      ]
+    }
+  ]
+}

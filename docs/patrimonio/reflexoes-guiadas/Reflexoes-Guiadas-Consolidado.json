@@ -1,0 +1,740 @@
+{
+  "meta": {
+    "aviso": "ARTEFATO NOVO — o ID (RG01-RG15) NAO existe no documento oficial, foi criado nesta consolidacao (confirmado pela Bibliotecaria: documento oficial usa so nome, sem codigo). Este arquivo une tres fontes que hoje vivem separadas: nome + texto convite (criado a parte para o card Explore Algo Novo) + Vozes que sugerem cada Reflexao (derivado da Matriz oficial, Parte 3). O conteudo completo de cada Reflexao (Essencia, Frase Sintese, Microgesto, Card) permanece so no documento oficial - nao duplicado aqui, so referenciado.",
+    "nota_normalizacao": "A Matriz oficial grafa nomes em Title Case (ex: 'Silencio'), o documento oficial usa MAIUSCULAS (ex: 'SILENCIO'). Este arquivo normaliza para maiusculas ao cruzar as fontes - sem essa normalizacao, o cruzamento por nome falha silenciosamente (times conferido nesta sessao).",
+    "pendente_validacao": "Este esquema de ID e proposta desta sessao, nao decisao institucional. Recomenda-se validar com a Fundadora antes de tratar como padrao definitivo, e considerar se deveria ser incorporado ao documento oficial futuramente.",
+    "total_reflexoes": 15,
+    "nota_renomeacao": "SILÊNCIO → SILÊNCIO INTERNO; ESSÊNCIA → ESSÊNCIA VIVA. Decisão da Fundadora para resolver colisão de nome com Vozes homônimas (Silêncio = Voz nº3, Essência = Voz nº24). Documento oficial ainda precisa ser atualizado pela Bibliotecária."
+  },
+  "reflexoes": [
+    {
+      "id": "RG01",
+      "nome": "SILÊNCIO INTERNO",
+      "familia": "Território",
+      "texto_convite": "Nesta reflexão, o convite não é encontrar respostas.\nÉ apenas observar como você tem se relacionado com os momentos em que o ruído diminui.\nTalvez exista algo esperando para ser escutado.",
+      "sugerida_pelas_vozes": [
+        {
+          "pilar": "PRESENÇA",
+          "numero": 2,
+          "voz": "Acolhimento"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 5,
+          "voz": "Escolhas"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 6,
+          "voz": "Pausa"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 7,
+          "voz": "Escuta"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 19,
+          "voz": "Consciência"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 20,
+          "voz": "Discernimento"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 23,
+          "voz": "Paciência"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 24,
+          "voz": "Essência"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 25,
+          "voz": "Soltar"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 26,
+          "voz": "Consentir"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 34,
+          "voz": "Despertar"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 37,
+          "voz": "Ascensão"
+        }
+      ],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### SILÊNCIO' (título original — renomeado para SILÊNCIO INTERNO) (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG02",
+      "nome": "CUIDADO",
+      "familia": "Território",
+      "texto_convite": "Nem sempre percebemos onde nosso cuidado tem sido direcionado.\nÀs vezes ele alcança tudo ao nosso redor, menos nós mesmas.\nNesta reflexão, o convite é reconhecer o que, hoje, está pedindo mais atenção na sua vida.",
+      "sugerida_pelas_vozes": [
+        {
+          "pilar": "PRESENÇA",
+          "numero": 2,
+          "voz": "Acolhimento"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 3,
+          "voz": "Silêncio"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 5,
+          "voz": "Escolhas"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 9,
+          "voz": "Confiança"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 12,
+          "voz": "Generosidade"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 14,
+          "voz": "Vitalidade"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 18,
+          "voz": "Humildade"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 23,
+          "voz": "Paciência"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 26,
+          "voz": "Consentir"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 29,
+          "voz": "Reorganização"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 32,
+          "voz": "Refino"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 35,
+          "voz": "Reequilíbrio"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 40,
+          "voz": "Germinar"
+        }
+      ],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### CUIDADO' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG03",
+      "nome": "MUDANÇAS",
+      "familia": "Território",
+      "texto_convite": "Toda mudança atravessa um tempo próprio.\nAlgumas chegam de repente. Outras começam silenciosamente, antes mesmo de serem percebidas.\nNesta reflexão, o convite é reconhecer como você tem vivido os ciclos de mudança da sua vida.",
+      "sugerida_pelas_vozes": [
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 25,
+          "voz": "Soltar"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 27,
+          "voz": "Recomeço"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 29,
+          "voz": "Reorganização"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 36,
+          "voz": "Emergência"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 38,
+          "voz": "Desbloqueio"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 39,
+          "voz": "Metamorfose"
+        }
+      ],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### MUDANÇAS' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG04",
+      "nome": "O QUE ME MOVE",
+      "familia": "Território",
+      "texto_convite": "Por trás de cada escolha existe algo que nos impulsiona.\nNem sempre percebemos o que realmente está conduzindo nossos passos.\nNesta reflexão, o convite é reconhecer o que tem inspirado suas escolhas neste momento.",
+      "sugerida_pelas_vozes": [
+        {
+          "pilar": "PRESENÇA",
+          "numero": 1,
+          "voz": "Coragem"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 4,
+          "voz": "Plenitude"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 8,
+          "voz": "Intuição"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 12,
+          "voz": "Generosidade"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 15,
+          "voz": "Autenticidade"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 17,
+          "voz": "Exploração"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 20,
+          "voz": "Discernimento"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 27,
+          "voz": "Recomeço"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 32,
+          "voz": "Refino"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 33,
+          "voz": "Determinação"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 34,
+          "voz": "Despertar"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 38,
+          "voz": "Desbloqueio"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 40,
+          "voz": "Germinar"
+        }
+      ],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### O QUE ME MOVE' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG05",
+      "nome": "MOVIMENTO INTERNO",
+      "familia": "Território",
+      "texto_convite": "Nem tudo o que acontece dentro de nós encontra palavras imediatamente.\nAlguns movimentos apenas começam a pedir espaço.\nNesta reflexão, o convite é perceber o que está buscando ganhar voz dentro de você.",
+      "sugerida_pelas_vozes": [
+        {
+          "pilar": "PRESENÇA",
+          "numero": 1,
+          "voz": "Coragem"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 5,
+          "voz": "Escolhas"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 7,
+          "voz": "Escuta"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 8,
+          "voz": "Intuição"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 9,
+          "voz": "Confiança"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 11,
+          "voz": "Inteireza"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 13,
+          "voz": "Diálogo"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 14,
+          "voz": "Vitalidade"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 21,
+          "voz": "Vulnerabilidade"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 22,
+          "voz": "Resiliência"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 23,
+          "voz": "Paciência"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 30,
+          "voz": "Ressurgir"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 33,
+          "voz": "Determinação"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 36,
+          "voz": "Emergência"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 37,
+          "voz": "Ascensão"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 38,
+          "voz": "Desbloqueio"
+        }
+      ],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### MOVIMENTO INTERNO' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG06",
+      "nome": "MINHA HISTÓRIA",
+      "familia": "Território",
+      "texto_convite": "A vida é feita de capítulos.\nAlguns encerram ciclos. Outros anunciam começos que ainda não conseguimos enxergar por completo.\nNesta reflexão, o convite é reconhecer o capítulo que você sente estar vivendo hoje.",
+      "sugerida_pelas_vozes": [
+        {
+          "pilar": "PRESENÇA",
+          "numero": 1,
+          "voz": "Coragem"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 3,
+          "voz": "Silêncio"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 4,
+          "voz": "Plenitude"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 13,
+          "voz": "Diálogo"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 15,
+          "voz": "Autenticidade"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 16,
+          "voz": "Colaboração"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 17,
+          "voz": "Exploração"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 18,
+          "voz": "Humildade"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 19,
+          "voz": "Consciência"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 20,
+          "voz": "Discernimento"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 21,
+          "voz": "Vulnerabilidade"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 22,
+          "voz": "Resiliência"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 24,
+          "voz": "Essência"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 25,
+          "voz": "Soltar"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 28,
+          "voz": "Perdão"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 29,
+          "voz": "Reorganização"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 30,
+          "voz": "Ressurgir"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 31,
+          "voz": "Integração"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 37,
+          "voz": "Ascensão"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 39,
+          "voz": "Metamorfose"
+        }
+      ],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### MINHA HISTÓRIA' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG07",
+      "nome": "RELAÇÕES",
+      "familia": "Território",
+      "texto_convite": "Cada relação revela algo sobre quem somos.\nAlgumas fortalecem. Outras desafiam. Todas podem nos ensinar.\nNesta reflexão, o convite é observar como você tem vivido os vínculos que fazem parte da sua vida.",
+      "sugerida_pelas_vozes": [
+        {
+          "pilar": "PRESENÇA",
+          "numero": 4,
+          "voz": "Plenitude"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 6,
+          "voz": "Pausa"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 9,
+          "voz": "Confiança"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 10,
+          "voz": "Empatia"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 11,
+          "voz": "Inteireza"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 12,
+          "voz": "Generosidade"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 13,
+          "voz": "Diálogo"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 15,
+          "voz": "Autenticidade"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 16,
+          "voz": "Colaboração"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 21,
+          "voz": "Vulnerabilidade"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 26,
+          "voz": "Consentir"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 28,
+          "voz": "Perdão"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 31,
+          "voz": "Integração"
+        }
+      ],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### RELAÇÕES' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG08",
+      "nome": "ESSÊNCIA VIVA",
+      "familia": "Território",
+      "texto_convite": "Por trás dos papéis, das expectativas e das circunstâncias, existe algo em você que permanece.\nNesta reflexão, o convite é aproximar-se do que faz sentido para quem você é.",
+      "sugerida_pelas_vozes": [
+        {
+          "pilar": "PRESENÇA",
+          "numero": 3,
+          "voz": "Silêncio"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 6,
+          "voz": "Pausa"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 7,
+          "voz": "Escuta"
+        },
+        {
+          "pilar": "PRESENÇA",
+          "numero": 8,
+          "voz": "Intuição"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 10,
+          "voz": "Empatia"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 11,
+          "voz": "Inteireza"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 14,
+          "voz": "Vitalidade"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 17,
+          "voz": "Exploração"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 18,
+          "voz": "Humildade"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 19,
+          "voz": "Consciência"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 22,
+          "voz": "Resiliência"
+        },
+        {
+          "pilar": "APRENDIZADO",
+          "numero": 24,
+          "voz": "Essência"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 27,
+          "voz": "Recomeço"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 28,
+          "voz": "Perdão"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 30,
+          "voz": "Ressurgir"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 31,
+          "voz": "Integração"
+        },
+        {
+          "pilar": "RESSIGNIFICADO",
+          "numero": 32,
+          "voz": "Refino"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 33,
+          "voz": "Determinação"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 34,
+          "voz": "Despertar"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 35,
+          "voz": "Reequilíbrio"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 36,
+          "voz": "Emergência"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 39,
+          "voz": "Metamorfose"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 40,
+          "voz": "Germinar"
+        }
+      ],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### ESSÊNCIA' (título original — renomeado para ESSÊNCIA VIVA) (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG09",
+      "nome": "SUSTENTAÇÃO",
+      "familia": "Território",
+      "texto_convite": "A forma como sustentamos nossos dias influencia silenciosamente tudo o que vivemos.\nNesta reflexão, o convite é reconhecer o que hoje fortalece — ou fragiliza — a base da sua vida.",
+      "sugerida_pelas_vozes": [
+        {
+          "pilar": "PRESENÇA",
+          "numero": 2,
+          "voz": "Acolhimento"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 10,
+          "voz": "Empatia"
+        },
+        {
+          "pilar": "CONEXÃO",
+          "numero": 16,
+          "voz": "Colaboração"
+        },
+        {
+          "pilar": "TRANSFORMAÇÃO",
+          "numero": 35,
+          "voz": "Reequilíbrio"
+        }
+      ],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### SUSTENTAÇÃO' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG10",
+      "nome": "ENERGIA DA SEMANA",
+      "familia": "Instantâneo",
+      "texto_convite": "Cada semana traz um ritmo diferente.\nPercebê-lo pode ajudar você a atravessar esse momento com mais consciência.\nNesta reflexão, o convite é reconhecer qual energia tem ocupado mais espaço em você.",
+      "sugerida_pelas_vozes": [],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### ENERGIA DA SEMANA' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG11",
+      "nome": "FOCO DA SEMANA",
+      "familia": "Instantâneo",
+      "texto_convite": "Nossa atenção revela muito sobre o momento que estamos vivendo.\nNem sempre ela está onde gostaríamos.\nNesta reflexão, o convite é perceber para onde sua atenção tem sido naturalmente direcionada.",
+      "sugerida_pelas_vozes": [],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### FOCO DA SEMANA' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG12",
+      "nome": "PESO E LEVEZA",
+      "familia": "Instantâneo",
+      "texto_convite": "Há dias em que tudo parece mais leve.\nEm outros, algo pesa, mesmo sem conseguirmos explicar.\nNesta reflexão, o convite é reconhecer o que predomina em você neste momento.",
+      "sugerida_pelas_vozes": [],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### PESO E LEVEZA' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG13",
+      "nome": "DECISÃO EM ABERTO",
+      "familia": "Instantâneo",
+      "texto_convite": "Nem toda decisão precisa ser tomada imediatamente.\nÀs vezes, compreender como nos relacionamos com uma escolha já transforma a forma de atravessá-la.\nNesta reflexão, o convite é observar onde você está diante de uma decisão ainda em aberto.",
+      "sugerida_pelas_vozes": [],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### DECISÃO EM ABERTO' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG14",
+      "nome": "ENTRE O SIM E O NÃO",
+      "familia": "Instantâneo",
+      "texto_convite": "Ao longo da vida, nossos \"sins\" e \"nãos\" moldam caminhos, relações e possibilidades.\nNem sempre percebemos como essas escolhas acontecem.\nNesta reflexão, o convite é reconhecer como você tem vivido suas escolhas mais recentes.",
+      "sugerida_pelas_vozes": [],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### ENTRE O SIM E O NÃO' (Essência, Frase Síntese, Microgesto, Card)"
+    },
+    {
+      "id": "RG15",
+      "nome": "O PILAR DO MEU DIA",
+      "familia": "Instantâneo",
+      "texto_convite": "Mesmo nos dias mais comuns, um movimento costuma se destacar.\nÀs vezes ele passa despercebido até o momento em que olhamos para trás.\nNesta reflexão, o convite é reconhecer qual Pilar esteve mais presente no seu dia.",
+      "sugerida_pelas_vozes": [],
+      "conteudo_completo_ver": "DIV-REFLEXOES-GUIADAS-Conteudo-Autoral-Completo-v1.0.md, cabeçalho '### O PILAR DO MEU DIA' (Essência, Frase Síntese, Microgesto, Card)"
+    }
+  ]
+}
