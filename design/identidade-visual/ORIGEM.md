@@ -49,6 +49,12 @@ Mudanças oficiais não devem nascer nesta pasta.
 | `07-identidade-visual/simbolos-trilhas-modal/despertar-modal/simbolo-conhecer-vozes.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/despertar-modal/simbolo-conhecer-vozes.png` |
 | `07-identidade-visual/simbolos-trilhas-modal/despertar-modal/simbolo-ampliar-olhar.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/despertar-modal/simbolo-ampliar-olhar.png` |
 | `07-identidade-visual/simbolos-trilhas-modal/despertar-modal/simbolo-encontrar-pausas.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/despertar-modal/simbolo-encontrar-pausas.png` |
+| `07-identidade-visual/fundo-de-reflexao/reflexao-aprendizado.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-aprendizado.png` |
+| `07-identidade-visual/fundo-de-reflexao/reflexao-conexao.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-conexao.png` |
+| `07-identidade-visual/fundo-de-reflexao/reflexao-presenca.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-presenca.png` |
+| `07-identidade-visual/fundo-de-reflexao/reflexao-ressignificado.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-ressignificado.png` |
+| `07-identidade-visual/fundo-de-reflexao/reflexao-transformacao.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-transformacao.png` |
+| `07-identidade-visual/fundo-de-reflexao/reflexao-pilares-integrados.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-pilares-integrados.png` |
 
 Os quatro ativos listados na seção "Ativos de produtos e experiências" (fundos das Vozes por Pilar, capa da Coleção Vozes do Silêncio, capa do Diário dos Saberes, logo do Ritual da Consciência) são ativos de produtos ou experiências específicas — não devem ser classificados como ativos institucionais universais da Divícia.
 
@@ -105,3 +111,9 @@ Mudanças oficiais devem nascer ou ser aprovadas na Biblioteca e depois ser nova
 - 4 arquivos: `simbolo-trilha-despertar.png`, `simbolo-conhecer-vozes.png`, `simbolo-ampliar-olhar.png`, `simbolo-encontrar-pausas.png`.
 - Verificação: os 4 arquivos foram conferidos bit a bit (`cmp`) contra os arquivos correspondentes da Biblioteca — 4/4 idênticos.
 - `descoberta-modal/` e `integracao-modal/` seguem vazias na origem — não importadas.
+
+### 2026-09-04 — Correção retroativa: origem do Fundo de Reflexão
+
+- `design/identidade-visual/ativos-produtos/fundo-de-reflexao/` (6 arquivos) foi adicionada ao mvp pelo commit local `17158d7` ("Adiciona Fundo de Reflexão — Pilares Integrados"), fora do padrão "Importa cópia operacional..." — ou seja, nasceu direto nesta pasta, contrariando a regra de soberania deste documento.
+- Correção: `07-identidade-visual/fundo-de-reflexao/` foi criada na Biblioteca (commit `ee84c0a`) como origem canônica retroativa, estabelecendo a proveniência que faltava — sem reescrever o histórico do mvp.
+- Verificação: os 6 arquivos agora na Biblioteca foram conferidos byte a byte (`cmp`) contra os já existentes no mvp — 6/6 idênticos. Nenhum arquivo do mvp foi alterado por esta correção.
