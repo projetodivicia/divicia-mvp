@@ -52,6 +52,11 @@ Mudanças oficiais não devem nascer nesta pasta.
 | `07-identidade-visual/simbolos-trilhas-modal/descoberta-modal/simbolo-trilha-descoberta.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/descoberta-modal/simbolo-trilha-descoberta.png` |
 | `07-identidade-visual/simbolos-trilhas-modal/descoberta-modal/aprofundar-experiencias.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/descoberta-modal/aprofundar-experiencias.png` |
 | `07-identidade-visual/simbolos-trilhas-modal/descoberta-modal/guardar-o-que-faz-sentido.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/descoberta-modal/guardar-o-que-faz-sentido.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/descoberta-modal/caminhar-com-lumi.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/descoberta-modal/caminhar-com-lumi.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/integracao-modal/simbolo-trilha-integracao.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/integracao-modal/simbolo-trilha-integracao.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/integracao-modal/construir-memoria-viva.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/integracao-modal/construir-memoria-viva.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/integracao-modal/perceber-continuidades.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/integracao-modal/perceber-continuidades.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/integracao-modal/caminhar-com-lumi.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/integracao-modal/caminhar-com-lumi.png` |
 | `07-identidade-visual/fundo-de-reflexao/reflexao-aprendizado.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-aprendizado.png` |
 | `07-identidade-visual/fundo-de-reflexao/reflexao-conexao.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-conexao.png` |
 | `07-identidade-visual/fundo-de-reflexao/reflexao-presenca.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-presenca.png` |
@@ -128,3 +133,13 @@ Mudanças oficiais devem nascer ou ser aprovadas na Biblioteca e depois ser nova
 - 3 arquivos: `simbolo-trilha-descoberta.png`, `aprofundar-experiencias.png`, `guardar-o-que-faz-sentido.png`.
 - Verificação: os 3 arquivos foram conferidos bit a bit (`cmp`) contra os arquivos correspondentes da Biblioteca — 3/3 idênticos.
 - **Pendente**: o 4º ícone ("Caminhar com a Lumi") não foi importado — o único candidato em `00-inbox/` está nomeado para as duas trilhas (Descoberta e Integração), contrariando a regra de não reaproveitar ícones entre modais. Aguardando esclarecimento de Andrea antes de aplicar em qualquer um dos dois modais.
+
+### 2026-09-04 — Importa símbolos do modal Trilha Integração + resolve "Caminhar com a Lumi" compartilhado
+
+- Andrea confirmou: o compartilhamento de `caminhar-com-lumi.png` entre os modais Descoberta e Integração é intencional, não erro — mesmo arquivo-fonte usado nos dois, sem duplicação de conteúdo (conferido `cmp`, idêntico byte a byte nas duas pastas).
+- Origem: `07-identidade-visual/simbolos-trilhas-modal/{descoberta-modal,integracao-modal}/` (Biblioteca).
+- Destino: `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/{descoberta-modal,integracao-modal}/`.
+- Descoberta: `caminhar-com-lumi.png` importado (pendência acima resolvida).
+- Integração: 4 arquivos — `simbolo-trilha-integracao.png`, `construir-memoria-viva.png`, `perceber-continuidades.png` (novos, já redimensionados para 360px de largura na importação — mesmo cuidado de performance da RODADA 201) e `caminhar-com-lumi.png` (compartilhado do Descoberta).
+- Verificação: os arquivos foram conferidos bit a bit (`cmp`) contra os correspondentes da Biblioteca — todos idênticos.
+- Com isso os 3 modais de Trilha (Despertar, Descoberta, Integração) têm cópia operacional completa neste repositório.
