@@ -45,6 +45,10 @@ Mudanças oficiais não devem nascer nesta pasta.
 | `07-identidade-visual/diario-dos-saberes/capa-diario-dos-saberes.png` | `design/identidade-visual/ativos-produtos/diario-dos-saberes/capa-diario-dos-saberes.png` |
 | `07-identidade-visual/ritual-da-consciencia/logo-ritual-da-consciencia.png` | `design/identidade-visual/ativos-produtos/ritual-da-consciencia/logo-ritual-da-consciencia.png` |
 | `07-identidade-visual/ritual-da-consciencia/mapa-escolha-vozes-por-posicao.png` | `design/identidade-visual/referencias-funcionais/ritual-da-consciencia/mapa-escolha-vozes-por-posicao.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/despertar-modal/simbolo-trilha-despertar.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/despertar-modal/simbolo-trilha-despertar.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/despertar-modal/simbolo-conhecer-vozes.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/despertar-modal/simbolo-conhecer-vozes.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/despertar-modal/simbolo-ampliar-olhar.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/despertar-modal/simbolo-ampliar-olhar.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/despertar-modal/simbolo-encontrar-pausas.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/despertar-modal/simbolo-encontrar-pausas.png` |
 
 Os quatro ativos listados na seção "Ativos de produtos e experiências" (fundos das Vozes por Pilar, capa da Coleção Vozes do Silêncio, capa do Diário dos Saberes, logo do Ritual da Consciência) são ativos de produtos ou experiências específicas — não devem ser classificados como ativos institucionais universais da Divícia.
 
@@ -66,7 +70,10 @@ Motivos:
 - ausência de logotipo institucional master da Divícia;
 - ausência de arquivos binários das fontes;
 - ausência de texturas;
-- ausência dos símbolos dos Pilares com fundo transparente.
+- ausência dos símbolos dos Pilares com fundo transparente;
+- `07-identidade-visual/simbolos-trilhas-modal/descoberta-modal/` e
+  `.../integracao-modal/` existem na Biblioteca, mas ainda vazias (sem
+  assets definidos) — nada a importar delas ainda.
 
 ## Inconsistências encontradas na origem
 
@@ -90,3 +97,11 @@ Mudanças oficiais devem nascer ou ser aprovadas na Biblioteca e depois ser nova
 - Arquivos renomeados: `card-presenca.png` → `voz-presenca.png`, `card-conexao.png` → `voz-conexao.png`, `card-aprendizado.png` → `voz-aprendizado.png`, `card-ressignificado.png` → `voz-ressignificado.png`, `card-transformacao.png` → `voz-transformacao.png`.
 - `DIV-IDENTIDADE-VISUAL-v1.0.md` ressincronizado com a versão atual da Biblioteca.
 - Verificação: as 5 imagens renomeadas foram conferidas bit a bit (`git hash-object`) contra os arquivos correspondentes da Biblioteca — 5/5 idênticos, nenhuma alteração de conteúdo binário.
+
+### 2026-09-04 — Importa símbolos do modal Trilha Despertar
+
+- Origem: `07-identidade-visual/simbolos-trilhas-modal/despertar-modal/` (Biblioteca).
+- Destino: `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/despertar-modal/`.
+- 4 arquivos: `simbolo-trilha-despertar.png`, `simbolo-conhecer-vozes.png`, `simbolo-ampliar-olhar.png`, `simbolo-encontrar-pausas.png`.
+- Verificação: os 4 arquivos foram conferidos bit a bit (`cmp`) contra os arquivos correspondentes da Biblioteca — 4/4 idênticos.
+- `descoberta-modal/` e `integracao-modal/` seguem vazias na origem — não importadas.
