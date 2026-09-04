@@ -23,6 +23,23 @@ Em caso de divergência entre esta cópia e a Biblioteca, prevalece a Biblioteca
 
 Mudanças oficiais não devem nascer nesta pasta.
 
+## Regra de formato do acervo canônico (fixada em 2026-09-04)
+
+A Biblioteca (`07-identidade-visual/`) e esta cópia operacional
+(`design/identidade-visual/`) são **acervo canônico**: formato-fonte é
+sempre **PNG lossless**. Nunca converter para JPEG/WebP nestes dois
+locais — precisam permanecer reeditáveis sem perda (recorte, ajuste de
+cor, variações futuras).
+
+Redimensionar resolução (ex.: 1024px → 360px) é permitido e bem-vindo
+aqui — não é perda de formato, só remoção de resolução desnecessária.
+
+Conversão de formato (PNG → JPEG/WebP) para reduzir peso de página é
+restrita à cópia operacional do protótipo
+(`divicia-biblioteca-arquitetural/03-produto/prototipo/teste-navegacao-stitch/`),
+onde o objetivo é peso de carregamento, não preservação de fonte. Essa
+conversão nunca deve subir até aqui nem até a Biblioteca.
+
 ## Escopo copiado
 
 | Origem (Biblioteca) | Destino (divicia-mvp) |
