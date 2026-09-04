@@ -49,6 +49,9 @@ Mudanças oficiais não devem nascer nesta pasta.
 | `07-identidade-visual/simbolos-trilhas-modal/despertar-modal/simbolo-conhecer-vozes.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/despertar-modal/simbolo-conhecer-vozes.png` |
 | `07-identidade-visual/simbolos-trilhas-modal/despertar-modal/simbolo-ampliar-olhar.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/despertar-modal/simbolo-ampliar-olhar.png` |
 | `07-identidade-visual/simbolos-trilhas-modal/despertar-modal/simbolo-encontrar-pausas.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/despertar-modal/simbolo-encontrar-pausas.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/descoberta-modal/simbolo-trilha-descoberta.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/descoberta-modal/simbolo-trilha-descoberta.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/descoberta-modal/aprofundar-experiencias.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/descoberta-modal/aprofundar-experiencias.png` |
+| `07-identidade-visual/simbolos-trilhas-modal/descoberta-modal/guardar-o-que-faz-sentido.png` | `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/descoberta-modal/guardar-o-que-faz-sentido.png` |
 | `07-identidade-visual/fundo-de-reflexao/reflexao-aprendizado.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-aprendizado.png` |
 | `07-identidade-visual/fundo-de-reflexao/reflexao-conexao.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-conexao.png` |
 | `07-identidade-visual/fundo-de-reflexao/reflexao-presenca.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-presenca.png` |
@@ -117,3 +120,11 @@ Mudanças oficiais devem nascer ou ser aprovadas na Biblioteca e depois ser nova
 - `design/identidade-visual/ativos-produtos/fundo-de-reflexao/` (6 arquivos) foi adicionada ao mvp pelo commit local `17158d7` ("Adiciona Fundo de Reflexão — Pilares Integrados"), fora do padrão "Importa cópia operacional..." — ou seja, nasceu direto nesta pasta, contrariando a regra de soberania deste documento.
 - Correção: `07-identidade-visual/fundo-de-reflexao/` foi criada na Biblioteca (commit `ee84c0a`) como origem canônica retroativa, estabelecendo a proveniência que faltava — sem reescrever o histórico do mvp.
 - Verificação: os 6 arquivos agora na Biblioteca foram conferidos byte a byte (`cmp`) contra os já existentes no mvp — 6/6 idênticos. Nenhum arquivo do mvp foi alterado por esta correção.
+
+### 2026-09-04 — Importa símbolos do modal Trilha Descoberta (parcial)
+
+- Origem: `07-identidade-visual/simbolos-trilhas-modal/descoberta-modal/` (Biblioteca).
+- Destino: `design/identidade-visual/ativos-produtos/simbolos-trilhas-modal/descoberta-modal/`.
+- 3 arquivos: `simbolo-trilha-descoberta.png`, `aprofundar-experiencias.png`, `guardar-o-que-faz-sentido.png`.
+- Verificação: os 3 arquivos foram conferidos bit a bit (`cmp`) contra os arquivos correspondentes da Biblioteca — 3/3 idênticos.
+- **Pendente**: o 4º ícone ("Caminhar com a Lumi") não foi importado — o único candidato em `00-inbox/` está nomeado para as duas trilhas (Descoberta e Integração), contrariando a regra de não reaproveitar ícones entre modais. Aguardando esclarecimento de Andrea antes de aplicar em qualquer um dos dois modais.
