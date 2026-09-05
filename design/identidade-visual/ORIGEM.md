@@ -80,6 +80,16 @@ conversão nunca deve subir até aqui nem até a Biblioteca.
 | `07-identidade-visual/fundo-de-reflexao/reflexao-ressignificado.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-ressignificado.png` |
 | `07-identidade-visual/fundo-de-reflexao/reflexao-transformacao.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-transformacao.png` |
 | `07-identidade-visual/fundo-de-reflexao/reflexao-pilares-integrados.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao/reflexao-pilares-integrados.png` |
+| `07-identidade-visual/imagem-editorial-boas-vindas.png` | `design/identidade-visual/ativos-produtos/imagem-editorial-boas-vindas.png` |
+| `07-identidade-visual/card-reflexao-silencio-interno.png` | `design/identidade-visual/ativos-produtos/card-reflexao-silencio-interno.png` |
+| `07-identidade-visual/fundo-card-minha-travessia.png` | `design/identidade-visual/ativos-produtos/fundo-card-minha-travessia.png` |
+| `07-identidade-visual/fundo-card-meu-espaco.png` | `design/identidade-visual/ativos-produtos/fundo-card-meu-espaco.png` |
+| `07-identidade-visual/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-aprendizado.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-aprendizado.png` |
+| `07-identidade-visual/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-conexao.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-conexao.png` |
+| `07-identidade-visual/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-presenca.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-presenca.png` |
+| `07-identidade-visual/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-ressignificado.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-ressignificado.png` |
+| `07-identidade-visual/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-transformacao.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-transformacao.png` |
+| `07-identidade-visual/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-pilares-integrados.png` | `design/identidade-visual/ativos-produtos/fundo-de-reflexao-sem-circulo/reflexao-sem-circulo-pilares-integrados.png` |
 
 Os quatro ativos listados na seção "Ativos de produtos e experiências" (fundos das Vozes por Pilar, capa da Coleção Vozes do Silêncio, capa do Diário dos Saberes, logo do Ritual da Consciência) são ativos de produtos ou experiências específicas — não devem ser classificados como ativos institucionais universais da Divícia.
 
@@ -160,3 +170,68 @@ Mudanças oficiais devem nascer ou ser aprovadas na Biblioteca e depois ser nova
 - Integração: 4 arquivos — `simbolo-trilha-integracao.png`, `construir-memoria-viva.png`, `perceber-continuidades.png` (novos, já redimensionados para 360px de largura na importação — mesmo cuidado de performance da RODADA 201) e `caminhar-com-lumi.png` (compartilhado do Descoberta).
 - Verificação: os arquivos foram conferidos bit a bit (`cmp`) contra os correspondentes da Biblioteca — todos idênticos.
 - Com isso os 3 modais de Trilha (Despertar, Descoberta, Integração) têm cópia operacional completa neste repositório.
+
+### 2026-09-04 — Corrige margem transparente nos símbolos das Trilhas modal
+
+- Teste extremo (ícone a 300px temporário) revelou que 9 dos 11 arquivos de `simbolos-trilhas-modal/` tinham margem transparente substancial (15%-67% da área do arquivo) entre o traço da arte e o limite do PNG — descoberto por medição correta via `sharp().raw().toBuffer()` (a checagem anterior usava `sharp().trim().metadata()`, que não executa a operação encadeada e por isso não detectava a margem real).
+- Correção: os 9 arquivos recortados até o limite real do desenho (+20px de respiro, mesma lógica em todos), sem redimensionar, distorcer ou alterar cor — só remoção da transparência excedente. `simbolo-trilha-integracao.png` e `perceber-continuidades.png` já preenchiam a caixa toda (0% de margem), não precisaram de corte.
+- `caminhar-com-lumi.png` recortado uma vez e replicado nas duas pastas (`descoberta-modal/` e `integracao-modal/`) — continua compartilhado e idêntico byte a byte nas duas.
+- Verificação: os 11 arquivos conferidos bit a bit (`cmp`) contra a Biblioteca — todos idênticos.
+
+### 2026-09-04 — Adiciona imagem editorial da tela de Boas-vindas (T03)
+
+- Origem: `00-inbox/Imagem tela boas vindas.png` (confirmado por Andrea entre 2 candidatos ambíguos no inbox — o outro, `ajuste 1 tela de bem vinda.png`, era mockup de tela inteira mencionando "TRILHA DO DESPERTAR", provável referência para outra tela (T08), não esta).
+- Canônico: `07-identidade-visual/imagem-editorial-boas-vindas.png` (1024×1536, PNG, sem transparência).
+- Destino: `design/identidade-visual/ativos-produtos/imagem-editorial-boas-vindas.png`.
+- Verificação: conferido bit a bit (`cmp`) contra a Biblioteca — idêntico.
+
+### 2026-09-05 — Adiciona imagem do card "Para Refletir Hoje" (Silêncio Interno)
+
+- Origem: `00-inbox/silencio interno home.png` (1254×1254, PNG, sem transparência) — identificada como a imagem específica indicada na referência "Ajuste 2 home.png" para o card de reflexão em destaque da Home.
+- Canônico: `07-identidade-visual/card-reflexao-silencio-interno.png`.
+- Destino: `design/identidade-visual/ativos-produtos/card-reflexao-silencio-interno.png`.
+- Verificação: conferido bit a bit (`cmp`) contra a Biblioteca — idêntico.
+- Conteúdo fixo por enquanto (sem lógica de rotação/seleção — decisão de stack ainda pendente).
+
+### 2026-09-05 — Adiciona fundo do card "Minha Travessia" (Home)
+
+- Origem: `00-inbox/fundo do card minha travessia home.png` (1815×866, PNG, sem transparência) — já entregue no formato/proporção certos pro card (cantos arredondados inclusos, área clara à esquerda para o texto, gradiente colorido à direita). Substitui a arte "Vozes do Silêncio" (`capa-vozes-do-silencio.jpg`) usada como fundo provisório na rodada anterior.
+- Canônico: `07-identidade-visual/fundo-card-minha-travessia.png`.
+- Destino: `design/identidade-visual/ativos-produtos/fundo-card-minha-travessia.png`.
+- Verificação: conferido bit a bit (`cmp`) contra a Biblioteca — idêntico.
+
+### 2026-09-05 — Adiciona fundo do card "Meu Espaço" (Home)
+
+- Origem: `00-inbox/Fundo de card meu espaço home.png` (1815×866, PNG, sem transparência) — mesmo padrão do fundo do "Minha Travessia" (cantos arredondados inclusos, área clara à esquerda, motivo dourado/terracota à direita). Substitui o tratamento provisório (`bg-surface-container-low` + borda) da rodada anterior.
+- Canônico: `07-identidade-visual/fundo-card-meu-espaco.png`.
+- Destino: `design/identidade-visual/ativos-produtos/fundo-card-meu-espaco.png`.
+- Verificação: conferido bit a bit (`cmp`) contra a Biblioteca — idêntico.
+
+### 2026-09-05 — Adiciona Fundo de Reflexão "sem círculo" (variante distinta do já existente)
+
+- Origem: `00-inbox/` — 6 arquivos nomeados "Fundo de reflexao sem O [Pilar]"
+  (grafia inconsistente entre eles: espaçamento duplo, "reflexoa" em vez de
+  "reflexao" no arquivo da Presença, capitalização variável).
+- Confirmado por inspeção visual: é uma variante diferente da já existente
+  em `fundo-de-reflexao/` — mesma composição (véus/asas + sunburst), mas
+  **sem a esfera dourada sólida no centro do sunburst**. Não confundir com
+  `fundo-de-vozes/` (arte distinta, já reconciliada anteriormente).
+- Nome de pasta escolhido: `fundo-de-reflexao-sem-circulo/` (Biblioteca e
+  mvp) — evita reaproveitar `fundo-de-reflexao/`, que já é a variante "com
+  círculo"; `sem-circulo` descreve a diferença visual real, mais claro que
+  o "sem O" do nome de origem.
+- Nomes de arquivo padronizados no padrão já usado no acervo canônico:
+  `reflexao-sem-circulo-{pilar}.png` (mesma lógica de `reflexao-{pilar}.png`
+  já usada na pasta irmã).
+- Canônico: `07-identidade-visual/fundo-de-reflexao-sem-circulo/` (Biblioteca).
+- Destino: `design/identidade-visual/ativos-produtos/fundo-de-reflexao-sem-circulo/`
+  (mvp) — nota: a instrução original mencionou `produtos-ativos/`, mas o
+  padrão real já existente nesta pasta é `ativos-produtos/`; segui o padrão
+  existente para não fragmentar a estrutura.
+- Sem redimensionamento, conversão de formato ou alteração de cor nesta
+  etapa — cópia fiel, só renomeação de arquivo/pasta.
+- Verificação: os 6 arquivos conferidos bit a bit (`cmp`) nos três locais
+  (Biblioteca, mvp, `00-inbox/`) — 6/6 idênticos nos três. Nenhum arquivo
+  removido do `00-inbox/`.
+- Pendente: nenhum ponto do produto usa esta variante ainda — aguardando
+  indicação de uso antes de referenciá-la em qualquer tela.
